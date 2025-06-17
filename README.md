@@ -29,17 +29,25 @@ Model Training & Evaluation
 During training, the model undergoes multiple epochs where its performance is evaluated on both training and validation datasets. Below are detailed results from the initial epochs:
 
 Epoch 0:
+
 Learning Rate: 0.00812
+
 Training Loss: 0.7506
+
 Validation Loss: 0.8232
+
 Validation Accuracy: 76.35%
 
 ![image](https://github.com/user-attachments/assets/f078b0b6-edc1-4c7b-8811-47532407335c)
 
 Epoch 1:
+
 Learning Rate: 0.00000 (adjusted using a learning rate scheduler)
+
 Training Loss: 0.1233 — a substantial decrease indicating better model fit
+
 Validation Loss: 0.0283 — significant improvement in generalization
+
 Validation Accuracy: 99.20% — excellent performance, showing high accuracy in disease prediction
 
 These results demonstrate that the model quickly converges and learns to distinguish between different leaf conditions effectively.
