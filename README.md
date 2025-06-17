@@ -1,4 +1,4 @@
-# Plant-Leaf-Disease-Detection-using-ResNet
+# Plant-Leaf-Disease-Prediction-using-ResNet
 
 In India, approximately 70% of the population relies on agriculture for their livelihood. However, a major challenge that farmers face is selecting the appropriate crops and identifying effective fertilizers or pesticides for their plants. Traditionally, crop disease identification has relied on the farmer's ability to visually inspect leaves and recognize symptoms. This manual method is highly dependent on experience and can often lead to misdiagnosis or delayed treatment.
 
