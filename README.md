@@ -25,7 +25,8 @@ To perform image classification, we use the ResNet-9 architecture — a variant 
 
 ResNet-9 also includes convolutional layers for feature extraction, batch normalization for stable training, ReLU activations, max pooling for spatial downsampling, and a fully connected layer for classification. The model is initially pretrained on the ImageNet dataset (which includes 1,000 object classes) and then fine-tuned on our specific dataset to enhance performance on plant disease identification.
 
-Model Training & Evaluation
+## Model Training & Evaluation
+
 During training, the model undergoes multiple epochs where its performance is evaluated on both training and validation datasets. Below are detailed results from the initial epochs:
 
 Epoch 0:
@@ -54,6 +55,6 @@ These results demonstrate that the model quickly converges and learns to disting
 
 ## Conclusion
 
-These outcomes indicate that the model quickly learned meaningful patterns and generalized well to unseen data. The sharp drop in both training and validation losses, along with the substantial increase in accuracy, confirms the model's effectiveness in classifying plant diseases.
+These outcomes indicate that the model quickly learned meaningful patterns and generalized well to unseen data. The sharp drop in both training and validation losses, along with the substantial increase in accuracy — achieving ### 99.2% validation accuracy — confirms the model's effectiveness in classifying plant diseases with high precision.
 
 In summary, the application of deep learning in plant disease detection offers a powerful tool for modern agriculture. With models like ResNet-9, farmers can gain rapid and accurate insights into crop health, reduce dependency on manual inspection, and make informed decisions. This not only supports agricultural productivity but also contributes to environmental preservation and global food security.
